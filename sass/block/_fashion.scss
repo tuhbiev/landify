@@ -1,0 +1,21 @@
+.fashion {
+    min-height: 684px;
+    padding: 70px 0 64px 0;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+    }
+    &__item {
+        flex-basis: 50%;
+    }
+    &__descr {
+        margin-left: 20px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    &__img {
+        margin-top: 54px;
+        min-width: 100%;
+    }
+}

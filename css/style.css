@@ -378,4 +378,35 @@
 .content__arrow {
   margin-left: 8px;
 }
+
+.fashion {
+  min-height: 684px;
+  padding: 70px 0 64px 0;
+}
+
+.fashion__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fashion__item {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.fashion__descr {
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.fashion__img {
+  margin-top: 54px;
+  min-width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
