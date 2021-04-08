@@ -1,0 +1,28 @@
+.mobile {
+    background-color: #2ec5ce;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+    }
+    &__item {
+        flex-basis: 48%;
+    }
+    &__subtitle {
+        margin-top: 15px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    &__text {
+        margin-top: 54px;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    &__links {
+        margin-top: 15px;
+    }
+    &__img {
+        min-width: 93%;
+        margin-left: 74px;
+    }
+}

@@ -409,4 +409,44 @@
   margin-top: 54px;
   min-width: 100%;
 }
+
+.mobile {
+  background-color: #2ec5ce;
+}
+
+.mobile__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mobile__item {
+  -ms-flex-preferred-size: 48%;
+      flex-basis: 48%;
+}
+
+.mobile__subtitle {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.mobile__text {
+  margin-top: 54px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.mobile__links {
+  margin-top: 15px;
+}
+
+.mobile__img {
+  min-width: 93%;
+  margin-left: 74px;
+}
 /*# sourceMappingURL=style.css.map */
