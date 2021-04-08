@@ -1,0 +1,36 @@
+.footer {
+    min-height: 280px;
+    padding: 56px 0;
+    background-color: #0b0d17;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__menu {
+        display: flex;
+        list-style: none;
+        margin-top: 24px;
+    }
+    &__link {
+        text-decoration: none;
+        margin-right: 24px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #ffffff;
+    }
+    &__right {
+        color: #ffffff;
+        margin-top: 24px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    &__text {
+        font-weight: 500;
+        font-size: 18px;
+        color: #ffffff;
+    }
+    &_blok {
+        display: block;
+        margin-top: 17px;
+    }
+}
