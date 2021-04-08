@@ -4,4 +4,20 @@
     &_center {
         text-align: center;
     }
+    &_symbol {
+        position: relative;
+        z-index: 2;
+        &:before {
+            position: absolute;
+            left: -88px;
+            top: -60px;
+            display: block;
+            content: "";
+            background: url("../../img/quote.svg") no-repeat;
+            width: 138px;
+            height: 120px;
+            background-size: cover;
+            z-index: -1;
+        }
+    }
 }

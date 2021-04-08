@@ -1,0 +1,69 @@
+.reviews {
+    min-height: 896px;
+    background-color: #D5FAFC;
+    padding: 120px 0 80px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    &__items {
+        flex-basis: 41%;
+        margin-left: 32px;
+    }
+    &__subtitle {
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    &__item {
+        box-sizing: border-box;
+        background-color: #fff;
+        padding: 32px;
+        margin-top: 32px;
+        width: 350px;
+        height: 436px;
+        &_large {
+            margin-left: 73px;
+        }
+        &_average {
+            width: 455px;
+            height: 350px;
+        }
+        &_small {
+            width: 350px;
+            height: 276px;
+        }
+    }
+    &__img {
+        height: 40px;
+    }
+    &__text {
+        margin-top: 32px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        margin-left: 32px;
+        position: relative;
+        &::before {
+            content: "";
+            display: block;
+            background: url("../../img/quote.svg") no-repeat;
+            color: #fff;
+            width: 16px;
+            height: 16px;
+            position: absolute;
+            left: -32px;
+        }
+    }
+    &__name {
+        margin-top: 24px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    &__speciality {
+        margin-top: 10px;
+        font-weight: 500;
+        font-size: 14px;
+        color: rgba(150, 155, 171, 1);
+    }
+}
