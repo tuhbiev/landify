@@ -1,0 +1,11 @@
+.phone {
+    &__header {
+        width: 282px;
+        display: flex;
+        justify-content: space-between;
+        transition: all 0.6s;
+        &_active {
+            margin-left: 60%;
+        }
+    }
+}

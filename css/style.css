@@ -498,4 +498,20 @@
   display: block;
   margin-top: 17px;
 }
+
+.phone__header {
+  width: 282px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.phone__header_active {
+  margin-left: 60%;
+}
 /*# sourceMappingURL=style.css.map */
