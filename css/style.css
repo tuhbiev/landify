@@ -337,4 +337,45 @@
   font-weight: 400;
   font-size: 16px;
 }
+
+.content {
+  min-height: 668px;
+  padding: 64px 0;
+}
+
+.content__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content__descr {
+  margin-left: 78px;
+}
+
+.content__text {
+  width: 95%;
+  margin-top: 36px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.content__link {
+  display: block;
+  cursor: pointer;
+  margin-top: 32px;
+  text-decoration: none;
+  color: #8c30f5;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.content__arrow {
+  margin-left: 8px;
+}
 /*# sourceMappingURL=style.css.map */
