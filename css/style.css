@@ -46,4 +46,8 @@
   margin-right: 32px;
   font-size: 14px;
 }
+
+.header__hamburger {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
