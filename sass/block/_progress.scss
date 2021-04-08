@@ -1,0 +1,37 @@
+.progress {
+    min-height: 332px;
+    padding: 80px 0;
+    &__wrapper {
+        display: flex;
+    }
+    &__info {
+        flex-basis: 50%;
+        &_wrap {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-top: -40px;
+        }
+    }
+    &__subtitle {
+        margin-top: 15px;
+    }
+    &__item {
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        flex-basis: 50%;
+    }
+    &__descr {
+        margin-left: 26.6px;
+    }
+    &__number {
+        font-weight: 800;
+        font-size: 28px;
+    }
+    &__text {
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: 16px;
+    }
+}
