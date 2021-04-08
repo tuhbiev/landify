@@ -50,4 +50,43 @@
 .header__hamburger {
   display: none;
 }
+
+.main {
+  padding: 96px 0 58px 0;
+  background: url("../../img/main-bg.jpg");
+}
+
+.main__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main__title {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 98px;
+  margin-top: 89px;
+}
+
+.main__btn {
+  width: 196px;
+  height: 62px;
+  background-color: #8c30f5;
+  border-radius: 8px;
+  border: none;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+
+.main__btn:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
 /*# sourceMappingURL=style.css.map */

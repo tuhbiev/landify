@@ -1,0 +1,28 @@
+.main {
+    padding: 96px 0 58px 0;
+    background: url("../../img/main-bg.jpg");
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        font-weight: 800;
+        font-size: 72px;
+        line-height: 98px;
+        margin-top: 89px;
+    }
+    &__btn {
+        width: 196px;
+        height: 62px;
+        background-color: #8c30f5;
+        border-radius: 8px;
+        border: none;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        font-weight: 700;
+        font-size: 20px;
+        color: #fff;
+        &:active {
+            box-shadow: none;
+        }
+    }
+}
