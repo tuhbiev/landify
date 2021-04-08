@@ -1,0 +1,18 @@
+.partners {
+    padding: 16px 0;
+    &__items {
+        height: 108px;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__img {
+        height: 28px;
+    }
+    &__line {
+        height: 1px;
+        background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6)50.38%, rgba(192, 204, 218, 0.1) 100%);
+    }
+}
