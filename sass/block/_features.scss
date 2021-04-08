@@ -1,0 +1,32 @@
+.features {
+    padding: 64px;
+    min-height: 672px;
+    &__title {
+        margin-top: 24px;
+        font-weight: 600;
+        font-size: 24px;
+    }
+    &__subtitle {
+        text-align: center;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    &__wrapper {
+        margin-top: -6px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__items {
+        text-align: center;
+        flex-basis: 342px;
+        margin-top: 54px;
+    }
+    &__text {
+        margin-top: 21px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
