@@ -1,0 +1,19 @@
+.header {
+    min-width: 72px;
+    padding: 16px 0;
+    &__menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__nav {
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+    &__link {
+        text-decoration: none;
+        margin-right: 32px;
+        font-size: 14px;
+    }
+}
